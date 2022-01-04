@@ -1,0 +1,195 @@
+@font-face {
+    font-family: "Rubik-Regular";
+    src: url("../fonts/Rubik-Regular.ttf");
+	src: url("../fonts/Rubik-Regular.woff2");
+}
+@font-face {
+    font-family: "Rubik-SemiBold";
+    src: url("../fonts/Rubik-SemiBold.ttf");
+	src: url("../fonts/Rubik-SemiBold.woff2");
+}
+@font-face {
+    font-family: "Rubik-Bold";
+    src: url("../fonts/Rubik-Bold.ttf");
+	src: url("../fonts/Rubik-Bold.woff2");
+}
+html,body {
+    font-family: "Rubik-Regular" !important;
+}
+.card-deck {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+
+/* Custom Css */
+.text-v{
+    color: #8D3DAF;
+    font-family: "Rubik-Bold";
+    font-size: 4rem;
+    text-shadow: 2px 2px 3px rgb(78, 78, 78);
+}
+.mb1-6{
+    margin-bottom: 10rem;
+}
+.mb1-7{
+    margin-bottom: 5rem;
+}
+.mb1-8{
+    margin-bottom: 4rem;
+}
+.border-purple{
+    border-color: #8D3DAF !important;
+}
+
+.textp-1{
+    color: #8D3DAF;
+    font-size: 5rem !important;
+}
+.textp-2 {
+    color: #8D3DAF !important;
+    font-family: "Rubik-Bold";
+    font-size: 2rem !important;
+}
+.textp-3{
+    font-family: "Rubik-Bold";
+    font-size: 5rem !important;
+}
+.textp-4{
+    font-size: 2rem !important;
+}
+
+@media (max-width: 1200px) {
+    .mb1-xl-6{
+        margin-bottom: 5rem !important;
+    }
+    .mb1-xl-7{
+        margin-bottom: 0rem !important;
+    }
+    .text-v{
+        color: #8D3DAF;
+        font-family: "Rubik-Bold";
+        font-size: 3rem;
+        text-shadow: 2px 2px 3px rgb(78, 78, 78);
+    }
+    .cryp-logo{
+        width: 50%;
+        height: 50%;
+    }
+}
+@media (max-width: 992px){
+    .mb1-lg-6{
+        margin-bottom: 3rem !important;
+    }
+    .textp-lg-1{
+        font-size: 1.5rem !important;
+    }
+    .textp-lg-2{
+        font-size: 12px !important;
+    }
+    .textp-lg-3{
+        font-size: 2rem !important;
+        font-family: "Rubik-Bold";
+    }
+    .mt-1-lg-6{
+        margin-top: 2.5rem !important;
+    }
+    .textp-2 {
+        color: #8D3DAF !important;
+        font-family: "Rubik-Bold";
+        font-size: 1.5rem !important;
+    }
+    .textp-3{
+        font-family: "Rubik-Bold";
+        font-size: 3rem !important;
+    }
+    .textp-4{
+        font-size: 1.5rem !important;
+    }
+    .img-992{
+        width: 10%;
+    }
+}
+@media (max-width: 768px){
+    .text-v{
+        color: #8D3DAF;
+        font-family: "Rubik-Bold";
+        font-size: 2rem;
+        text-shadow: 2px 2px 3px rgb(78, 78, 78);
+    }
+    .textp-1{
+        color: #8D3DAF;
+        font-size: 3rem !important;
+    }
+    .mb1-mb-6{
+        margin-bottom: 2rem !important;
+    }
+    .textp-2 {
+        color: #8D3DAF !important;
+        font-family: "Rubik-Bold";
+        font-size: 1rem !important;
+    }
+    .textp-md-1{
+        font-size: .80rem !important;
+    }
+    .carousel-caption {
+        position: absolute;
+        right: 15%;
+        bottom: 20px;
+        left: 15%;
+        z-index: 10;
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+        color: #fff;
+        text-align: center;
+    }
+}
+@media (max-width: 576px){
+    .text-v{
+        color: #8D3DAF;
+        font-family: "Rubik-Bold";
+        font-size: 1.5rem;
+        text-shadow: 2px 2px 3px rgb(78, 78, 78);
+    }
+    .textp-1{
+        color: #8D3DAF;
+        font-size: 2rem !important;
+    }
+    .textp-2 {
+        color: #8D3DAF !important;
+        font-family: "Rubik-Bold";
+        font-size: .60rem !important;
+    }
+    .textp-3{
+        font-family: "Rubik-Bold";
+        font-size: 2rem !important;
+    }
+    .textp-4{
+        font-size: 1rem !important;
+    }
+    .textp-sm-2{
+        font-size: 10px !important;
+    }
+}
+@media (max-width: 360px){
+    .textp-xs-center{
+        text-align: center;
+    }
+    .mlp-xs-6{
+        margin-left: 0 !important;
+    }
+    .textp-3{
+        font-family: "Rubik-Bold";
+        font-size: 1rem !important;
+    }
+    .textp-4{
+        font-size: 1rem !important;
+        display: none;
+    }
+    .textp-xs-2{
+        font-size: 6px !important;
+    }
+}

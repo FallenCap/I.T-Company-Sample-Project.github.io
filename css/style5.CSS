@@ -1,0 +1,374 @@
+@font-face {
+    font-family: "Rubik-Regular";
+    src: url("../fonts/Rubik-Regular.ttf");
+	src: url("../fonts/Rubik-Regular.woff2");
+}
+@font-face {
+    font-family: "Rubik-SemiBold";
+    src: url("../fonts/Rubik-SemiBold.ttf");
+	src: url("../fonts/Rubik-SemiBold.woff2");
+}
+@font-face {
+    font-family: "Rubik-Bold";
+    src: url("../fonts/Rubik-Bold.ttf");
+	src: url("../fonts/Rubik-Bold.woff2");
+}
+html,body {
+    font-family: "Rubik-Regular" !important;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.container-fluid {
+    width: 100%;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    margin-right: auto;
+    margin-left: auto;
+}
+.container {
+    width: 100%;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    margin-right: auto;
+    margin-left: auto;
+}
+.row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col, .col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm, .col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md, .col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg, .col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl, .col-xl-auto {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+
+.nav-link {
+    padding-right: 0rem !important;
+    padding-left: 0rem !important;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 20px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: left !important;
+}
+/* Custom CSS */
+.texta-1{
+    font-size: 5rem;
+    font-family: "Rubik-Bold";
+    color:#fff;
+    text-shadow: 2px 2px 2px black;
+    text-align: center;
+}
+.texta-2{
+    font-size: 1.5rem;
+    color:#fff;
+    text-shadow: 2px 2px 1px black;
+    text-align: center;
+}
+.texta-3{
+    font-size: 4rem !important;
+    color: #8D3DAF;
+}
+.texta-4{
+    font-size: 3rem;
+    color: #8D3DAF;
+}
+.texta-5{
+    font-size: 1.2rem;
+}
+.texta-6{
+    font-size: 1.7rem;
+    text-align: center;
+}
+.texta-7{
+    font-family: "Rubik-SemiBold";
+}
+.texta-8{
+    font-size: 4rem;
+    font-family: "Rubik-Bold";
+    text-align: center;
+}
+.texta-9{
+    font-size: 3rem;
+    font-family: "Rubik-Bold";
+    text-shadow: 2px 2px 2px black;
+}
+.texta-10{
+    font-size: 1.5rem;
+}
+.texta-11{
+    font-size: 1.5rem;
+    font-family: "Rubik-SemiBold";
+}
+.mba-1{
+    margin-bottom: 15rem;
+}
+.mta-1{
+    margin-top: 5rem;
+}
+.btn-purple {
+    color: #fff;
+    background-color: #8D3DAF;
+    border-color: #8D3DAF;
+}
+.logo-w{
+    width: 50%;
+}
+.logo-w-1{
+    width: 80%;
+}
+.logo-w-2{
+    width: 45%;
+}
+
+.m-card-1{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Media */
+
+@media (max-width: 1200px){
+    .mba-1 {
+        margin-bottom: 5rem;
+    }
+    .texta-1 {
+        font-size: 4rem;
+        font-family: "Rubik-Bold";
+        color: #fff;
+        text-shadow: 2px 2px 2px black;
+        text-align: center;
+    }
+    .texta-2 {
+        font-size: 1.2rem;
+        color: #fff;
+        text-shadow: 2px 2px 1px black;
+        text-align: center;
+    }
+}
+@media (max-width: 992px){
+    .texta-1 {
+        font-size: 3.5rem;
+        font-family: "Rubik-Bold";
+        color: #fff;
+        text-shadow: 2px 2px 2px black;
+        text-align: center;
+    }
+    .texta-2 {
+        font-size: 1.1rem;
+        color: #fff;
+        text-shadow: 2px 2px 1px black;
+        text-align: center;
+    }
+    .texta-8 {
+        font-size: 3.5rem;
+        font-family: "Rubik-Bold";
+        text-align: center;
+    }
+    .texta-3 {
+        font-size: 3rem !important;
+        color: #8D3DAF;
+    }
+    .texta-4 {
+        font-size: 2.5rem !important;
+        color: #8D3DAF;
+    }
+    .texta-5 {
+        font-size: 1rem;
+    }
+    .texta-9 {
+        font-size: 2.5rem;
+        font-family: "Rubik-Bold";
+        text-shadow: 2px 2px 2px black;
+    }
+    .texta-10 {
+        font-size: 1.2rem;
+    }
+    .texta-6 {
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    .texta-7 {
+        font-family: "Rubik-SemiBold";
+        font-size: 1.4rem;
+    }
+    .c-width{
+        width: 13rem !important;
+    }
+    .mba-lg-1{
+        margin-bottom: .1rem !important;
+    }
+}
+@media (max-width: 768px){
+    .mba-1 {
+        margin-bottom: 2rem;
+    }
+    .texta-1 {
+        font-size: 2.5rem;
+        font-family: "Rubik-Bold";
+        color: #fff;
+        text-shadow: 2px 2px 2px black;
+        text-align: center;
+    }
+    .texta-2 {
+        font-size: .8rem;
+        color: #fff;
+        text-shadow: 2px 2px 1px black;
+        text-align: center;
+    }
+    .texta-md-1{
+        font-size: .6rem !important;
+    }
+    .texta-8 {
+        font-size: 2.5rem;
+        font-family: "Rubik-Bold";
+        text-align: center;
+    }
+    .texta-4 {
+        font-size: 2rem !important;
+        color: #8D3DAF;
+    }
+    .texta-5 {
+        font-size: .7rem;
+    }
+    .texta-9 {
+        font-size: 2rem;
+        font-family: "Rubik-Bold";
+        text-shadow: 2px 2px 2px black;
+    }
+    .texta-10 {
+        font-size: 1rem;
+    }
+    .texta-md-2{
+        font-size: .8rem;
+    }
+    .texta-11 {
+        font-size: 1rem;
+        font-family: "Rubik-SemiBold";
+    }
+    .texta-6 {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    .texta-7 {
+        font-family: "Rubik-SemiBold";
+        font-size: 1.3rem;
+    }
+    .c-width{
+        width: 10rem !important;
+    }
+    .c-width-2{
+        width: 12rem !important;
+    }
+}
+@media (max-width: 576px){
+    .mba-1 {
+        margin-bottom: 1rem;
+    }
+    .texta-1 {
+        font-size: 2rem;
+        font-family: "Rubik-Bold";
+        color: #fff;
+        text-shadow: 2px 2px 2px black;
+        text-align: center;
+    }
+    .texta-2 {
+        font-size: .6rem;
+        color: #fff;
+        text-shadow: 2px 2px 1px black;
+        text-align: center;
+    }
+    .texta-8 {
+        font-size: 2rem;
+        font-family: "Rubik-Bold";
+        text-align: center;
+    }
+    .texta-9 {
+        font-size: 1.5rem;
+        font-family: "Rubik-Bold";
+        text-shadow: 2px 2px 2px black;
+    }
+    .texta-10 {
+        font-size: .8rem;
+    }
+    .texta-md-2{
+        font-size: .6rem;
+    }
+    .texta-11 {
+        font-size: .8rem;
+        font-family: "Rubik-SemiBold";
+    }
+    .texta-6 {
+        font-size: 1rem;
+        text-align: center;
+    }
+    .texta-7 {
+        font-family: "Rubik-SemiBold";
+        font-size: 1.1rem;
+    }
+    .c-width-2{
+        width: 10rem !important;
+    }
+}
+@media (max-width: 360px){
+    .d-xs-none{
+        display: none;
+    }
+    .mba-1 {
+        margin-bottom: .2rem;
+    }
+    .texta-md-1 {
+        font-size: .4rem !important;
+    }
+    .texta-9 {
+        font-size: 1rem;
+        font-family: "Rubik-Bold";
+        text-shadow: 2px 2px 2px black;
+    }
+    .texta-6 {
+        font-size: .7rem;
+        text-align: center;
+    }
+    .logo-w{
+        width: 20%;
+    }
+    .logo-w-1{
+        width: 40%;
+    }
+    .logo-w-2{
+        width: 20%;
+    }
+    .mta-xs-1{
+        margin-top: 2rem;
+    }
+    .texta-7 {
+        font-family: "Rubik-SemiBold";
+        font-size: 1rem;
+    }
+}

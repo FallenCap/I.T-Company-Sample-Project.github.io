@@ -1,0 +1,221 @@
+@font-face {
+    font-family: "Rubik-Regular";
+    src: url("../fonts/Rubik-Regular.ttf");
+	src: url("../fonts/Rubik-Regular.woff2");
+}
+@font-face {
+    font-family: "Rubik-SemiBold";
+    src: url("../fonts/Rubik-SemiBold.ttf");
+	src: url("../fonts/Rubik-SemiBold.woff2");
+}
+@font-face {
+    font-family: c;
+    src: url("../fonts/Rubik-Bold.ttf");
+	src: url("../fonts/Rubik-Bold.woff2");
+}
+html,body {
+    font-family: "Rubik-Regular" !important;
+}
+
+/* Custom CSS */
+.mts-1{
+    margin-top: 8rem;
+}
+.mbs-1{
+    margin-bottom: 5rem;
+}
+.texts-1{
+    font-family: "Rubik-SemiBold";
+    font-size: 3rem;
+    text-align: center;
+}
+.texts-2{
+    font-family: "Rubik-Regular";
+    font-size: 1rem;
+    text-align: center;
+}
+.img-width{
+    width: 40%;
+}
+.img-width1{
+    width: 38%;
+}
+.img-width2{
+    width: 30%;
+}
+.texts-3{
+    font-family: "Rubik-SemiBold";
+    font-size: 2rem;
+}
+.texts-4{
+    font-family: "Rubik-Bold";
+    font-size: 3rem;
+    text-align: center;
+    color: #8D3DAF;
+    text-shadow: 2px 2px 1px black;
+}
+.texts-5{
+    font-family: "Rubik-SemiBold";
+    font-size: 1.5rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 2px 2px black;
+}
+.texts-6{
+    font-family: "Rubik-Bold";
+    font-size: 5rem;
+    text-align: center;
+}
+.texts-7{
+    font-size: 1.1rem;
+    text-align: left;
+}
+.bg-img {
+    background: url(../images/computer-laptop-work-office.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: auto;
+}
+.v-dim{
+    width: 500px;
+    height: 315px;
+}
+@media (max-width: 992px){
+    .v-dim{
+        width: 400px;
+        height: 265px;
+    }
+    .texts-7{
+        font-size: .9rem;
+        text-align: left;
+    }
+    .texts-6{
+        font-family: "Rubik-Bold";
+        font-size: 4rem;
+        text-align: center;
+    }
+    .texts-5{
+        font-family: "Rubik-SemiBold";
+        font-size: 1.2rem;
+        text-align: center;
+        color: #fff;
+        text-shadow: 2px 2px 2px black;
+    }
+}
+@media (max-width: 768px){
+    .img-width-md{
+        width: 60% !important;
+    }
+    .texts-1 {
+        font-family: "Rubik-SemiBold";
+        font-size: 2rem;
+        text-align: center;
+    }
+    .texts-3 {
+        font-family: "Rubik-SemiBold";
+        font-size: 1.3rem;
+    }
+    .texts-md-1{
+        font-size: 12px;
+    }
+    .texts-4 {
+        font-family: "Rubik-Bold";
+        font-size: 2rem;
+        text-align: center;
+        color: #8D3DAF;
+        text-shadow: 2px 2px 1px black;
+    }
+    .texts-5 {
+        font-family: "Rubik-SemiBold";
+        font-size: 1rem;
+        text-align: center;
+        color: #fff;
+        text-shadow: 2px 2px 2px black;
+    }
+    .texts-6 {
+        font-family: "Rubik-Bold";
+        font-size: 3rem;
+        text-align: center;
+    }
+    .texts-7 {
+        font-size: .9rem;
+        text-align: center;
+    }
+    .texts-md-2{
+        font-size: .7rem;
+    }
+    .v-dim{
+        display: block;
+        width: 50%;
+        margin: auto;
+        height: 215px;
+    }
+    .texts-md-center{
+        text-align: center;
+    }
+}
+@media (max-width: 576px){
+    .v-dim{
+        display: block;
+        width: 50%;
+        margin: auto;
+        height: 200px;
+    }
+    .texts-6 {
+        font-family: "Rubik-Bold";
+        font-size: 2rem;
+        text-align: center;
+    }
+    .texts-5 {
+        font-family: "Rubik-SemiBold";
+        font-size: .8rem;
+        text-align: center;
+        color: #fff;
+        text-shadow: 1px 1px 2px black;
+    }
+    .texts-3 {
+        font-family: "Rubik-SemiBold";
+        font-size: 1.1rem;
+    }
+    .texts-md-1 {
+        font-size: 10px;
+    }
+}
+@media (max-width: 360px){
+    .texts-2 {
+        font-family: "Rubik-Regular";
+        font-size: .8rem;
+        text-align: center;
+    }
+    .img-xs-width-1{
+        width: 30% !important;
+    }
+    .img-xs-width-2{
+        width: 50% !important;
+    }
+    .img-width{
+        width: 20%;
+    }
+    .img-width1{
+        width: 24%;
+    }
+    .img-width2{
+        width: 20%;
+    }
+    .v-dim{
+        display: block;
+        width: 70%;
+        margin: auto;
+        height: 200px;
+    }
+    .texts-6 {
+        font-family: "Rubik-Bold";
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .texts-7 {
+        font-size: .7rem;
+        text-align: center;
+    }
+}
